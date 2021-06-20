@@ -14,7 +14,7 @@ kubectl run flaskapp\
 
 # Step 3:
 # List kubernetes pods
-kubectl get pods
+kubectl get pods --all-namespaces
 
 # Step 4:
 # Forward the container port to a host
